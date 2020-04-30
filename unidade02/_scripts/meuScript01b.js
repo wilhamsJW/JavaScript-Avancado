@@ -1,6 +1,11 @@
-//alert("JavaScript está funcionando");
+//alert("JavaScript está funcionandoO");
+//ex02-add-elemento.html
 
-var elemento = document.getElementsByTagName("li");
+//var elemento = document.getElementsByTagName("li");
+//usando querySelectorAll, ele pega todos os elementos e não apenas um
+
+var elemento = document.querySelectorAll("li");
+
 
 //console.log(elemento.childElementCount);
 //retornará undefined, pq? pq não esxiste elementos dentro do li, ele tem um valor em texto mas não elementos

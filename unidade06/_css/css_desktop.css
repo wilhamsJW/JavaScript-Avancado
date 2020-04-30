@@ -12,11 +12,18 @@ body {
 #janela {
 	padding:10px;
 	background-color:#FFFFFF;
-	width:auto;
+	width:320px;
 }
 
+img {
+	display: block;
+	
+}
+
+/**
 img {
     display: block;
     float: left;
 	margin:10px 10px 10px 0;
 }
+*/

@@ -1,0 +1,77 @@
+# JavaScript-Avancado
+
+Fundamentos Avançados de Javascript
+Lista do que contem nos arquivos:
+
+
+                    ---> Unidade 02
+
+
+meuScript01a.js   ->                   Como pegar elementos com  document.getElementById
+                                       e usando querySelector
+
+meuScript01b.js   ->                   Como usar um laço pra pegar todos os elementos filhos
+                                       e usando querySelectorAll
+
+meuScript01b.js   ->                   Como acessar elementos com getElementsByTagName();
+
+meuScript02.js    ->                   Acrescentar um elemento via javaScript
+
+meuScript03.js    ->                   Usando setAtribute para manipular elementos 
+
+
+                   ---> Unidade 03
+
+
+
+script01.js       ->                   evento onclick e onload
+
+script02.js       ->                   onfocus e onblur
+
+script03.js       ->                   evento onChange
+
+
+
+                    ---> Unidade 04
+
+
+script01.js       ->                   addEventListener
+
+script02.js       ->                   Passar parãmetro com addEventListener
+
+
+
+                    ---> Unidade 05
+
+
+script01.js       ->                   Alterar o CSS em JavaScript                    
+
+script01.js       ->                   Alterar um className com Javascript, fazendo uma janela mudar de cores
+
+
+
+                  ---> Unidade 06 
+
+
+script01.js      ->                    detectar redimensionamento do browswer
+
+script02.js      ->                    detectar qunado o usuário move o mouse, usando o clientX
+                                       mostrando tipo um banner no site ou algo pra chamar a atenção do usuário
+
+script03.js      ->                    detectar tecla,Muito usaadoo viu, exemplo de uso é em uma
+                                       calculadora javaScript, onde tenho q mostrar no display 
+                                       os números pressionados
+
+script04.js      ->                    detectar quando o usuário move o scroll
+                                       
+
+script05.js      ->                    mostrar um contéudo quando o usuário move o scroll
+
+
+
+                  ---> Unidade 07
+
+
+ script01.js     ->                    formulário Onsubmit
+
+ script02.js     ->                    Como  mostrar as imformações de uma formulário apens quando o user clickar

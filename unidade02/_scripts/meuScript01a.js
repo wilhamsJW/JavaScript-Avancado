@@ -1,7 +1,8 @@
 //alert("JavaScript está funcionando");
 //AVISO: ESSE ARQUIVO FAZ INTERAÇÃO COM O ARQUIVO ex01-acessar-elementos desta pasta
 
-var element = document.getElementById("opcoesPizza");
+//var element = document.getElementById("opcoesPizza");
+  var element = document.querySelector("#opcoesPizza"); //pra pegar ID usa-se "#"
 
 //console.log(element.children);
 //children é o elemtento filho, quando digo filho estou conversando com todos os elementos
@@ -23,9 +24,12 @@ var tamanho = element.childElementCount;
 //var criada pra contar os elementos dentro da var element declarada no inicio do código
 //element.childElementCount = elemento pegue os elementos filhos e conte eles
 
+
+/*
 for(var i=0; i<tamanho; i++) {
     console.log(element.children[i].innerHTML);
 }
+*/
 
 //explicação desse código acima:
 //var i=0; = var declarada como posição inical 0
