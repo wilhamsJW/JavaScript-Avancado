@@ -3,6 +3,7 @@ alert("oiii");
 function iniciar() {
     //document.querySelector("#cidade").style.display = "none";
     //forma clássica do javaScript
+    
     escolhercidade.onclick = function() {
          
         if ( escolhercidade.checked == true ) {

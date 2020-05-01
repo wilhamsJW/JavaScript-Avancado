@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Teste</title>
+    </head>
+
+    <body>
+<div id="janela">
+
+</div>
+
+    <script>
+        //função criada pra simular os segundos de um relógio
+        //e fazer ele parar quando eu querer
+
+        var indice = 0;
+        var pausa;//para haver uma pausa do relógio precisamos do clearInterval e dessa variável sem valor 
+        function mudarValor() {
+            janela.innerHTML = indice;//pra aparecer no browser
+            indice ++;//concatenar
+
+            if(indice >= 4) {
+                clearInterval(pausa);//o parãmetro é uma variável vazia
+                //clearInterval => vai parar a função
+                janela.innerHTML = "Pausou";
+            }
+        }
+        pausa = setInterval(mudarValor, 1000);
+        //setInterval => Faz com que a função execute a ação no tempo ordenado
+        //a var pausa agora foi tida como parãmetro do clearInterval, então ela irá pausar o setInterval
+        //conforme as instruçoes da estrutura condicional q ela recebeu do if pra ser mais claro
+        //a var pausa tem q vir antes do setInterval pra poder parar o setInterval com o método clearInterval
+         
+    </script>
+    </body>
+</html>

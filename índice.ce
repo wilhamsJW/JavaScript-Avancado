@@ -75,3 +75,14 @@ script05.js      ->                    mostrar um contéudo quando o usuário mo
  script01.js     ->                    formulário Onsubmit
 
  script02.js     ->                    Como  mostrar as imformações de uma formulário apens quando o user clickar
+
+
+
+                   ---> Unidade 08
+
+
+ script01.js     ->                   fazer com que troque de foto via javscript
+
+ teste.html      ->                   uso didático do setInterval  
+
+ script02.js     ->                   usando setInterval pra fazer um carrosel de fotos
