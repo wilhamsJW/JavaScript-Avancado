@@ -86,3 +86,19 @@ script05.js      ->                    mostrar um contéudo quando o usuário mo
  teste.html      ->                   uso didático do setInterval  
 
  script02.js     ->                   usando setInterval pra fazer um carrosel de fotos
+
+
+
+                  ---> Unidade 09
+
+
+
+script01.js                     Pegando a hora do PC do usuário e mostrando no Browser OU 
+                                Criando um relógio Digital  
+
+
+explicaçãoSobre
+RelógioAnalógico.js             Conceitos sobre como desenvolver um relógio analógico 
+
+
+script-analógico.js             como fazer um relógio analógico 
