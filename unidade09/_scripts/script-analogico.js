@@ -18,7 +18,10 @@ function  mostrarHora() {
 
     hora.style.transform    = "rotate(" + ponteiroHora    + "deg)"; //lembre-se que hora,minuto e segundo são as IDs 
     minuto.style.transform  = "rotate(" + ponteiroMinuto  + "deg)"; //O método rotate () gira o desenho atual. 
-    segundo.style.transform = "rotate(" + ponteiroSegundo + "deg)"; 
+    //segundo.style.transform = "rotate(" + ponteiroSegundo + "deg)"; 
+
+    //com template string, bem melhor do que acima
+    segundo.style.transform = `rotate(${ponteiroSegundo}deg)`;
     
     //deg = graus, ele fica fora das aspas pq apenas a variável fica dentro das aspas.
     //a variável está informando o grau q vai ser rotacionado, esses graus se muda dinamicamente pq se trata de 
